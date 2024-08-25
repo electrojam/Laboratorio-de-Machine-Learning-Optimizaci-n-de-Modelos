@@ -4,10 +4,10 @@ from flask import Flask, request
 import pandas as pd
 
 
-FEATURES = pickle.load(open("churn/models/features.pk", "rb"))
+FEATURES = pickle.load(open("data/interim/features.pk", "rb"))
 
-model = pickle.load(open("churn/models/model.pk", "rb"))
-column_equivalence = pickle.load(open("churn/models/column_equivalence.pk", "rb"))
+model = pickle.load(open("models/model.pk", "rb"))
+column_equivalence = pickle.load(open("data/interim/column_equivalence.pk", "rb"))
 
 # create the Flask app
 app = Flask(__name__)
