@@ -8,6 +8,7 @@ This API uses a number of open source projects to work properly:
 * [Flask] - Libreria minimalista para el provisionamiento de APIs
 * [scikit-learn] - Libreria de aprendizaje automatico
 * [pickle] - Libreria para cargar y guardar variables en memoria
+* [matpplotlib] - Libreria para graficar en python
 
 ## Instalación Local
 Esta API requiere Python y las librerias señaladas en el requirements.txt
